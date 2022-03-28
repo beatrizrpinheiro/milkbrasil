@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MilkBrasil.Views.Vitrine"
-             Title="CatalogoProdutos">
+             Title="Vitrine de Produtos">
     <ContentPage.Resources>
         <Style TargetType="Frame">
             <Setter Property="BackgroundColor" Value="LightGreen"/>
@@ -36,7 +36,8 @@
     </ContentPage.Resources>
 
     <ScrollView Orientation="Both">
-        <FlexLayout>
+        <FlexLayout
+            AlignItems="Center">
             <Frame WidthRequest="300"
                    HeightRequest="480">
 
@@ -53,9 +54,9 @@
                    HeightRequest="480">
 
                 <FlexLayout Direction="Column">
-                    <Label Text="Leite em Pó" Style="{StaticResource headerLabel}"/>
+                    <Label Text="Queijo Mussarela" Style="{StaticResource headerLabel}"/>
                     <Label Text="Fazer descrição do produto"/>
-                    <Image Source="leiteempo.png" WidthRequest="180" HeightRequest="180"/>
+                    <Image Source="mussarela.png" WidthRequest="180" HeightRequest="180"/>
                     <Label FlexLayout.Grow="1"/>
                     <Button/>
                 </FlexLayout>
@@ -65,9 +66,9 @@
             <Frame WidthRequest="300"
                    HeightRequest="480">
                 <FlexLayout Direction="Column">
-                    <Label Text="Leite em Pó" Style="{StaticResource headerLabel}"/>
+                    <Label Text="Leite Condensado" Style="{StaticResource headerLabel}"/>
                     <Label Text="Fazer descrição do produto"/>
-                    <Image Source="leiteempo.png" WidthRequest="180" HeightRequest="180"/>
+                    <Image Source="condensado.png" WidthRequest="180" HeightRequest="180"/>
                     <Label FlexLayout.Grow="1"/>
                     <Button/>
                 </FlexLayout>
