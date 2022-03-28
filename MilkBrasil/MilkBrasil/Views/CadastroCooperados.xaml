@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MilkBrasil.Views.CadastroCooperados">
+    <ContentPage.Title>
+        Cadastro de Cooperados
+    </ContentPage.Title>
+
+    <ContentPage.Content>
+        <StackLayout Padding="5" Margin="10,15,10,10">
+            <Entry Text="{Binding Razao}" Placeholder="Razão Social"/>
+            <Entry Text="{Binding Nome}" Placeholder="Nome Fantasia"/>
+            <Entry Text="{Binding Cnpj}" Placeholder="CNPJ" Keyboard="Numeric"/>
+            <Label Text="Data de Fundação:"/>
+            <DatePicker Format="dd/MM/yyyy" Date="{Binding Fundacao}"/>
+            <Entry Text="{Binding Endereco}" Placeholder="Endereço"/>
+            <Entry Text="{Binding Telefone}" Placeholder="Telefone"/>
+            <Entry Text="{Binding Celular}" Placeholder="Celular"/>
+            <Entry Text="{Binding Atividade}" Placeholder="Atividade Econômica"/>
+            <Entry Text="{Binding Envolvidos}" Placeholder="Número de profissionais envolvidos" Keyboard="Numeric"/>
+            <Entry Text="{Binding Representante}" Placeholder="Nome do representante"/>
+            <Button
+                Style="{StaticResource ButtonCadastroCooperados}"
+                Text="Cadastrar" Command="{Binding SalvarCooperado}"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

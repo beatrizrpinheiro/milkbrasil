@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MilkBrasil.Views.MainShell"
+             xmlns:Views="clr-namespace:MilkBrasil.Views;assembly=MilkBrasil"
+             xmlns:mainpage="clr-namespace:MilkBrasil;assembly=MilkBrasil">
+   
+    <Shell.FlyoutHeader>
+        <Frame BackgroundColor="#597d84" Padding="15">
+            <StackLayout
+                Spacing="0" Padding="10,0,0,0">
+                <Label
+                    Text="Menu"
+                    HorizontalTextAlignment="Center"
+                    Style="{StaticResource Menus}"/>
+            </StackLayout>
+        </Frame>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home" Icon="home.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Cadastro de cooperados" Icon="cadastro.png" Route="Cadastro">
+        <ShellContent>
+            <Views:CadastroCooperados/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Cooperados" Icon="cooperados.png" Route="Cooperados">
+        <ShellContent>
+            <Views:Cooperados/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Treinamentos" Icon="treinamentos.png">
+        <ShellContent>
+            <Views:Treinamentos/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Ferramentas e utensílios" Icon="ferramentas.png">
+        <ShellContent>
+            <Views:Ferramentas/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Vitrine de Produtos" Icon="vitrine.png">
+        <ShellContent>
+            <Views:Vitrine/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Sobre" Icon="sobre.png">
+        <ShellContent>
+            <Views:Sobre/>
+        </ShellContent>
+    </FlyoutItem>
+    
+    
+    
+</Shell>

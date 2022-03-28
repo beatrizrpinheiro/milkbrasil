@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MilkBrasil.Views.Cooperados"
+             x:Name="Pagina">
+    
+    <ContentPage.Title>
+        Informações dos Cooperados
+    </ContentPage.Title>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="refresh.png" Order="Primary" Command="{Binding Refresh}"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="15" Orientation="Horizontal">
+            <ScrollView>
+            <ListView ItemsSource="{Binding InfoCooperados}">
+                <ListView.Header>
+                    <Grid RowDefinitions="*"
+                          ColumnDefinitions="*,*,*">
+                        <Label Grid.Row="0" Grid.Column="0" Text="Razão Social"/>
+                        <Label Grid.Row="0" Grid.Column="1" Text="Representante"/>
+                        <Label Grid.Row="0" Grid.Column="2" Text="Telefone"/>
+                    </Grid>
+                </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Text="Detalhes"
+                                              Command="{Binding Source={x:Reference Pagina}, Path=BindingContext.Details}"
+                                              CommandParameter="{Binding Id}"/>
+                                </ViewCell.ContextActions>
+                                <Grid RowDefinitions="*"
+                                      ColumnDefinitions="*,*,*">
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Razao}"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding Representante}"/>
+                                    <Label Grid.Row="0" Grid.Column="2" Text="{Binding Telefone}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+            </ListView>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
