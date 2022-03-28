@@ -1,12 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MilkBrasil.Views.Vitrine">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Vitrine!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="MilkBrasil.Views.Vitrine"
+             Title="CatalogoProdutos">
+    <ContentPage.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="LightGreen"/>
+            <Setter Property="BorderColor" Value="Black"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="CornerRadius" Value="15"/>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="0, 4"/>
+        </Style>
+
+        <Style x:Key="headerLabel" TargetType="Label">
+            <Setter Property="Margin" Value="0, 8"/>
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="FlexLayout.Order" Value="-1"/>
+            <Setter Property="FlexLayout.AlignSelf" Value="Center"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Text" Value="Comprar"/>
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="BackgroundColor" Value="DarkGreen"/>
+            <Setter Property="BorderRadius" Value="20"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView Orientation="Both">
+        <FlexLayout>
+            <Frame WidthRequest="300"
+                   HeightRequest="480">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="Leite em Pó" Style="{StaticResource headerLabel}"/>
+                    <Label Text="Fazer descrição do produto"/>
+                    <Image Source="leiteempo.png" WidthRequest="180" HeightRequest="180"/>
+                    <Label FlexLayout.Grow="1"/>
+                    <Button/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame WidthRequest="300"
+                   HeightRequest="480">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="Leite em Pó" Style="{StaticResource headerLabel}"/>
+                    <Label Text="Fazer descrição do produto"/>
+                    <Image Source="leiteempo.png" WidthRequest="180" HeightRequest="180"/>
+                    <Label FlexLayout.Grow="1"/>
+                    <Button/>
+                </FlexLayout>
+            </Frame>
+
+
+            <Frame WidthRequest="300"
+                   HeightRequest="480">
+                <FlexLayout Direction="Column">
+                    <Label Text="Leite em Pó" Style="{StaticResource headerLabel}"/>
+                    <Label Text="Fazer descrição do produto"/>
+                    <Image Source="leiteempo.png" WidthRequest="180" HeightRequest="180"/>
+                    <Label FlexLayout.Grow="1"/>
+                    <Button/>
+                </FlexLayout>
+            </Frame>
+        </FlexLayout>
+    </ScrollView>
 </ContentPage>

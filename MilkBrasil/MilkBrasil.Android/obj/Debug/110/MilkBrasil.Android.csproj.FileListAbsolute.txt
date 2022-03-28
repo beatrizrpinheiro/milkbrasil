@@ -603,3 +603,6 @@ C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\stam
 C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\res\drawable\condensado.png
+C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\res\drawable\leiteempo.png
+C:\Projetos Pessoais\MilkBrasil\MilkBrasil\MilkBrasil.Android\obj\Debug\110\res\drawable\mussarela.png
