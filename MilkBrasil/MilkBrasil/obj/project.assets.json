@@ -378,7 +378,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.HotReload/2.0.15": {
+      "Xamarin.HotReload/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.5.0",
@@ -1280,10 +1280,10 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.HotReload/2.0.15": {
-      "sha512": "5H4o+KSYMXVmojb0GeGx81d7iaR7c7OeRnqiL+A6uor9Igblilt4eAI/FQVex8ffQOoVohc4a8FxSTzJZ2geLg==",
+    "Xamarin.HotReload/2.0.2": {
+      "sha512": "FwUOaHUDB3mwEzz8Axx0yeEFWexNW0+0NTtwfhtzn0TOpHUqM9BrjwT3Syg7oTkWJzFBVb/BQCOs7PNXNzntjQ==",
       "type": "package",
-      "path": "xamarin.hotreload/2.0.15",
+      "path": "xamarin.hotreload/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1293,7 +1293,7 @@
         "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.HotReload.Reloader.deps.json",
         "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.HotReload.Reloader.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.HotReload.Reloader.pdb",
-        "xamarin.hotreload.2.0.15.nupkg.sha512",
+        "xamarin.hotreload.2.0.2.nupkg.sha512",
         "xamarin.hotreload.nuspec"
       ]
     }
@@ -1303,25 +1303,35 @@
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
-      "Xamarin.HotReload >= 2.0.15",
+      "Xamarin.HotReload >= 2.0.2",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Beatriz Pinheiro\\.nuget\\packages\\": {}
+    "C:\\Users\\higor\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
+      "projectUniqueName": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
       "projectName": "MilkBrasil",
-      "projectPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
-      "packagesPath": "C:\\Users\\Beatriz Pinheiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\obj\\",
+      "projectPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
+      "packagesPath": "C:\\Users\\higor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Beatriz Pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\higor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -1362,7 +1372,7 @@
           },
           "Xamarin.HotReload": {
             "target": "Package",
-            "version": "[2.0.15, )"
+            "version": "[2.0.2, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
@@ -1379,7 +1389,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

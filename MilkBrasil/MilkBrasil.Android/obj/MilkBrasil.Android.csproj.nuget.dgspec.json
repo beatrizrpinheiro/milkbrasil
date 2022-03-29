@@ -1,22 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj": {}
+    "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj": {}
   },
   "projects": {
-    "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj": {
+    "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj",
+        "projectUniqueName": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj",
         "projectName": "MilkBrasil.Android",
-        "projectPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj",
-        "packagesPath": "C:\\Users\\Beatriz Pinheiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil.Android\\obj\\",
+        "projectPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil.Android\\MilkBrasil.Android.csproj",
+        "packagesPath": "C:\\Users\\higor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Beatriz Pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\higor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid11.0"
@@ -28,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj": {
-                "projectPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj"
+              "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj": {
+                "projectPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj"
               }
             }
           }
@@ -45,23 +51,34 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.HotReload": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             }
           }
         }
       }
     },
-    "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj": {
+    "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
+        "projectUniqueName": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
         "projectName": "MilkBrasil",
-        "projectPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
-        "packagesPath": "C:\\Users\\Beatriz Pinheiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos Pessoais\\MilkBrasil\\MilkBrasil\\MilkBrasil\\obj\\",
+        "projectPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\MilkBrasil.csproj",
+        "packagesPath": "C:\\Users\\higor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\higor\\source\\repos\\milkbrasil\\MilkBrasil\\MilkBrasil\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Beatriz Pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\higor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -102,7 +119,7 @@
             },
             "Xamarin.HotReload": {
               "target": "Package",
-              "version": "[2.0.15, )"
+              "version": "[2.0.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -119,7 +136,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
