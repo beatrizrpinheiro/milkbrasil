@@ -24,7 +24,7 @@
    
                 <StackLayout
                 >
-                    <Label Text="MILK BRASIL" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="30" FontAttributes="Bold" Padding="20"/>
+                    <Label Text="MILK AUSTÁLIA" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="30" FontAttributes="Bold" Padding="20"/>
                 </StackLayout>
    
             </FlexLayout>
