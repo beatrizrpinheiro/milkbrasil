@@ -7,7 +7,7 @@
     </ContentPage.Title>
 
     <ContentPage.Content>
-        <StackLayout Padding="5" Margin="10,15,10,10">
+        <StackLayout Padding="10" BackgroundColor="DarkGreen">
             <Entry Text="{Binding Razao}" Placeholder="Razão Social"/>
             <Entry Text="{Binding Nome}" Placeholder="Nome Fantasia"/>
             <Entry Text="{Binding Cnpj}" Placeholder="CNPJ" Keyboard="Numeric"/>

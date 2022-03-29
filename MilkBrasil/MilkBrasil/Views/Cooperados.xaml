@@ -13,9 +13,9 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <StackLayout Padding="15" Orientation="Horizontal">
+        <StackLayout Padding="15" Orientation="Horizontal" BackgroundColor="DarkGreen">
             <ScrollView>
-            <ListView ItemsSource="{Binding InfoCooperados}">
+            <ListView  ItemsSource="{Binding InfoCooperados}">
                 <ListView.Header>
                     <Grid RowDefinitions="*"
                           ColumnDefinitions="*,*,*">
